@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 #Install package
-RUN apt-get install postgresql -y
+RUN apt-get update -y && apt-get install postgresql -y
 
 #Configuracion del puerto de postgres
 EXPOSE 5432
