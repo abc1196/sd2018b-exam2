@@ -1,0 +1,5 @@
+{
+    "service_name": "postgresql",
+    "version": "1.0",
+    "type": "Docker"
+}
