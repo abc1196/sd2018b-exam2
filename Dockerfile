@@ -1,7 +1,6 @@
 FROM ubuntu:16.04
 
 #Install package
-RUN apt-get update -y
 RUN apt-get install postgresql -y
 
 #Configuracion del puerto de postgres
